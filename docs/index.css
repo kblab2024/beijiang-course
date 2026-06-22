@@ -1,0 +1,31 @@
+
+:root{--deep:#0E3942;--teal:#1F7A8C;--teald:#14606E;--tint:#E9F1F2;--ink:#14313A;--grey:#5C6E73;
+--amber:#DD8A1E;--amberd:#B86C12;--sand:#F4EADA;--snow:#F7FAFA;--card:#fff;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--ink);background:var(--snow);line-height:1.7}
+h1,h2,h3{font-family:"Noto Serif TC",serif}
+a{color:var(--teald);text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(135deg,var(--deep),var(--teald));color:#fff;padding:60px 0 48px}
+.hero h1{margin:0 0 12px;font-size:40px;line-height:1.2}
+.hero .sub{font-size:18px;opacity:.92;margin:4px 0}
+.hero .tag{display:inline-block;margin-top:14px;background:var(--amber);color:#3a2400;font-weight:700;padding:6px 14px;border-radius:999px;font-size:14px}
+.intro{background:var(--tint);border-radius:14px;padding:20px 24px;margin:26px 0}
+.intro b{color:var(--teald)}
+.keys{font-size:14px;color:var(--grey);margin-top:8px}
+.keys kbd{background:#fff;border:1px solid #cdd9db;border-bottom-width:2px;border-radius:6px;padding:1px 7px;font-family:inherit;color:var(--deep);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin:24px 0 50px}
+.wkcard{background:var(--card);border:1px solid #dde7e9;border-radius:14px;padding:20px;box-shadow:0 4px 14px rgba(14,57,66,.06);transition:transform .12s,box-shadow .12s;position:relative}
+.wkcard:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(14,57,66,.13)}
+.wkcard .wk{color:var(--amberd);font-weight:800;font-size:13px;letter-spacing:1px}
+.wkcard h3{margin:6px 0 10px;font-size:19px;color:var(--deep);line-height:1.35}
+.wkcard h3 a{color:var(--deep)}
+.wkcard .song{font-weight:700;color:var(--teald)}
+.wkcard .meta{font-size:13px;color:var(--grey);margin-top:8px}
+.wkcard .acts{margin-top:12px;display:flex;gap:8px}
+.wkcard .acts a{font-size:13px;font-weight:700;padding:7px 12px;border-radius:9px}
+.wkcard .play{background:var(--deep);color:#fff}
+.wkcard .play:hover{background:var(--amber);color:#3a2400}
+.wkcard .pdf{background:var(--tint);color:var(--teald)}
+footer{background:var(--deep);color:#cfe0e3;padding:28px 0;margin-top:30px;font-size:14px}
+@media(max-width:600px){.hero h1{font-size:30px}}
