@@ -20,6 +20,8 @@ color:#fff;background:var(--teal);padding:3px 12px;border-radius:999px}
 /* 媒體 */
 .reveal .slide-img{display:block;margin:.2em auto 0;max-height:360px;width:auto;max-width:100%;
 border-radius:12px;border:1px solid #d8e4e6;box-shadow:0 8px 24px rgba(14,57,66,.18)}
+.reveal section.panel-slide{text-align:center}
+.reveal section.panel-slide .slide-img{max-height:660px;margin:0 auto}
 .reveal figure{margin:0}
 .reveal .imgph{margin:.3em auto 0;max-width:78%;border:2px dashed #bcd0d3;border-radius:12px;
 background:repeating-linear-gradient(45deg,#eef4f5,#eef4f5 14px,#e6eff0 14px,#e6eff0 28px);
