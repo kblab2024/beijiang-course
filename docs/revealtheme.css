@@ -38,6 +38,8 @@ padding:26px;text-align:center;color:#6a7c80;font-size:.7em}
 .reveal .vpending a{color:var(--teald)}
 .reveal .score{background:var(--sand);border:1px solid #e6d6b6;border-radius:12px;padding:20px 24px;color:#6b5828;font-size:.8em;margin-top:.3em}
 .reveal .score b{color:var(--amberd)}
+.reveal .score-img{display:block;margin:.25em auto 0;max-height:460px;width:auto;max-width:100%;
+background:#fff;border-radius:12px;border:1px solid #e6d6b6;box-shadow:0 8px 24px rgba(14,57,66,.18);padding:8px}
 .reveal a{color:var(--teald)}
 /* 固定角落工具列 */
 .deckbar{position:fixed;top:10px;left:12px;z-index:60;display:flex;gap:8px;font-family:"Noto Sans TC",sans-serif}
