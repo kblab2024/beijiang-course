@@ -31,6 +31,12 @@ padding:26px;text-align:center;color:#6a7c80;font-size:.7em}
 .reveal .vrow iframe{border:0;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.3);background:#000}
 .reveal .vrow.n1 iframe{width:880px;height:495px;max-width:92vw}
 .reveal .vrow.n2 iframe{width:560px;height:315px}
+/* 長條列＋影片防裁切：tv＝左字右影片；n1s/n2s＝縮小影片 */
+.reveal .tv{display:flex;gap:26px;align-items:center;margin-top:.1em}
+.reveal .tv ul{flex:1 1 0;min-width:0;font-size:.88em}
+.reveal .tv .vrow{flex:0 0 auto;margin-top:0}
+.reveal .vrow.n1s iframe{width:600px;height:338px;max-width:48vw}
+.reveal .vrow.n2s iframe{width:500px;height:281px}
 .reveal .vcap{font-size:14px;color:var(--grey);text-align:center;margin-top:6px;max-width:560px}
 .reveal .vt{font-weight:700;color:var(--teald);font-size:.62em;margin-bottom:.2em;text-align:center}
 .reveal .vpending{background:var(--sand);border:1px dashed #d8c39a;border-radius:12px;padding:18px 20px;font-size:.62em;max-width:560px}
@@ -46,4 +52,5 @@ background:#fff;border-radius:12px;border:1px solid #e6d6b6;box-shadow:0 8px 24p
 .deckbar a{background:rgba(14,57,66,.86);color:#fff;font-size:13px;font-weight:600;padding:6px 12px;border-radius:8px;text-decoration:none;backdrop-filter:blur(4px)}
 .deckbar a:hover{background:var(--amber);color:#3a2400}
 .helphint{position:fixed;bottom:8px;left:12px;z-index:60;font-size:12px;color:#7d9298;font-family:"Noto Sans TC",sans-serif}
-@media(max-width:700px){.reveal{font-size:22px}.reveal .vrow.n1 iframe{height:300px}}
+@media(max-width:700px){.reveal{font-size:22px}.reveal .vrow.n1 iframe{height:300px}
+.reveal .tv{flex-direction:column;align-items:stretch}.reveal .vrow.n1s iframe{width:92vw;max-width:92vw;height:300px}}
