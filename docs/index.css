@@ -22,7 +22,7 @@ a{color:var(--teald);text-decoration:none}
 .wkcard h3 a{color:var(--deep)}
 .wkcard .song{font-weight:700;color:var(--teald)}
 .wkcard .meta{font-size:13px;color:var(--grey);margin-top:8px}
-.wkcard .acts{margin-top:12px;display:flex;gap:8px}
+.wkcard .acts{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
 .wkcard .acts a{font-size:13px;font-weight:700;padding:7px 12px;border-radius:9px}
 .wkcard .play{background:var(--deep);color:#fff}
 .wkcard .play:hover{background:var(--amber);color:#3a2400}
