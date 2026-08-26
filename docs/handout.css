@@ -27,6 +27,22 @@ ul{margin:2px 0 4px;padding-left:20px} li{margin:3px 0;color:#31454c;font-size:1
 padding:9px 13px;margin-top:10px;font-size:14px;color:#4a3a22;line-height:1.55}
 .cue b{color:var(--amberd)}
 @media(max-width:600px){body{font-size:16px}.talk-text{font-size:17px}.wrap{padding:16px 12px 50px}}
+/* 投影片之前的「前言 / 開篇導讀」區塊 */
+.preamble{background:#fff;border:1px solid #dbe6e8;border-left:6px solid var(--amber);
+border-radius:14px;padding:20px 26px 24px;margin:0 0 22px;box-shadow:0 6px 18px rgba(14,57,66,.08)}
+.preamble h2{font-family:"Noto Serif TC",serif;color:var(--deep);font-size:1.32em;margin:.1em 0 .55em;
+border-bottom:3px solid var(--amber);padding-bottom:.18em;display:inline-block}
+.preamble h3{font-family:"Noto Serif TC",serif;color:var(--teald);font-size:1.06em;margin:1.25em 0 .35em}
+.preamble p{margin:.55em 0}
+.preamble ul{margin:.4em 0 .6em;padding-left:1.35em}
+.preamble li{margin:.3em 0}
+.preamble li::marker{color:var(--amber)}
+.preamble blockquote{margin:.6em 0;padding:.7em 1em;background:var(--tint);
+border-left:4px solid var(--teal);border-radius:0 8px 8px 0;color:var(--grey);font-size:.94em}
+.preamble blockquote p{margin:.3em 0}
+.preamble a{color:var(--teald);word-break:break-all}
+.preamble strong{color:var(--deep)}
+
 @media print{
   @page{size:A4;margin:14mm 15mm}
   body{background:#fff;font-size:11.5pt}
@@ -34,4 +50,5 @@ padding:9px 13px;margin-top:10px;font-size:14px;color:#4a3a22;line-height:1.55}
   .wrap{max-width:none;padding:0}
   .slide{box-shadow:none;border:1px solid #d5dfe1;margin:9px 0}
   .talk-text{font-size:12pt;line-height:1.62} li{font-size:10.5pt}
+  .preamble{box-shadow:none;break-inside:avoid}
 }
