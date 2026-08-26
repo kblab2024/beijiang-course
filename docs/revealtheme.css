@@ -21,6 +21,17 @@ color:#fff;background:var(--teal);padding:3px 12px;border-radius:999px}
 .reveal .slide-img{display:block;margin:.2em auto 0;max-height:360px;width:auto;max-width:100%;
 border-radius:12px;border:1px solid #d8e4e6;box-shadow:0 8px 24px rgba(14,57,66,.18)}
 .reveal section.panel-slide{text-align:center}
+/* 放映用「導讀」頁（投影片之前的前言，不佔編號） */
+.reveal section.preamble-slide .preamble{background:#fff;border:1px solid #d8e4e6;
+border-left:8px solid var(--amber);border-radius:14px;padding:.5em 1.1em .7em}
+.reveal section.preamble-slide .snum{background:var(--amber);color:#3a2400}
+.reveal section.preamble-slide h2{font-size:1.16em;margin:.1em 0 .35em}
+.reveal section.preamble-slide h3{font-size:.92em;color:var(--teald);margin:.5em 0 .2em}
+.reveal section.preamble-slide p{font-size:.82em;margin:.25em 0}
+.reveal section.preamble-slide li{font-size:.82em;margin:.24em 0;line-height:1.5}
+.reveal section.preamble-slide a{color:var(--teald);word-break:break-all}
+.reveal section.preamble-slide blockquote{font-size:.76em;background:var(--tint);
+border-left:4px solid var(--teal);padding:.4em .8em;margin:.4em 0;color:var(--grey)}
 .reveal section.panel-slide .slide-img{max-height:660px;margin:0 auto}
 .reveal figure{margin:0}
 .reveal .imgph{margin:.3em auto 0;max-width:78%;border:2px dashed #bcd0d3;border-radius:12px;
